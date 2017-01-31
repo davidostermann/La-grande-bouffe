@@ -38,3 +38,14 @@ body, html {
 #panier {
   padding-left: 40%;
 }
+#menu1 {
+  display: flex;
+}
+#menu2{
+  display: flex;
+}
+ul,li{
+  list-style-type: none;
+  padding: 2%;
+  margin-right: 10%;
+}
