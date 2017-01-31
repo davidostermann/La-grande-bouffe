@@ -2,6 +2,8 @@ body, html {
   height: 100%;
   margin: 0 auto;
 }
+
+/*Header */
 .header {
   width: 100%;
   height: 15%;
@@ -38,6 +40,11 @@ body, html {
 #panier {
   padding-left: 40%;
 }
+
+/*Slider*/
+
+
+/*La carte*/
 #menu1 {
   display: flex;
 }
