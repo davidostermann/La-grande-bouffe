@@ -1,0 +1,40 @@
+body, html {
+  height: 100%;
+  margin: 0 auto;
+}
+.header {
+  width: 100%;
+  height: 15%;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: black;
+  color: white;
+}
+.logo {
+  padding: 5% 0 0 5%;
+  width: 30%;
+  height: 80%;
+}
+.navbar-right {
+  padding: 12% 5% 0 0;
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  font-size: 25px;
+  font-family: 'Farsan', cursive;
+}
+.menu-navbar {
+  padding: 5%;
+}
+.menu-navbar:hover, #panier:hover {
+  color: red;
+}
+#panier {
+  padding-left: 40%;
+}
